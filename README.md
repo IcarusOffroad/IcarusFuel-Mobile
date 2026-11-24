@@ -1,0 +1,5 @@
+# Icarus Fuel Mobile v1.0.0
+
+Upload all files in this folder to the root of a GitHub repository named IcarusFuel-Mobile. Enable GitHub Pages under Settings > Pages > Deploy from a branch > main / (root). Open the published HTTPS URL in Safari, Share > Add to Home Screen, then launch the installed app online once. Test in Airplane Mode. Data is local to the app/browser; export JSON backups regularly. No server or dependencies are needed.
+
+Start with a full tank entry as the baseline. The next full tank calculates economy; partial fills are accumulated until the next full tank. In trip mode reset the trip meter at every fuel stop. Input units and method are locked after recording starts; display economy units and correction multiplier remain editable. Overall economy is distance divided by fuel across completed intervals. Prices are optional and in USD. JSON restore replaces existing records after confirmation. CSV is for analysis, JSON for restoration. When updating app files, increment the cache version in sw.js.
